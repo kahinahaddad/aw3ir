@@ -1,33 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP2</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="stylesheet" href="style.css" />
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+</head>
+<body>
 
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-        
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="js/main.js"></script>-->
-    </head>
-    <body>        
-        <h1>tp2</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
-    </body>
+    <h2>TP2</h2>
+
+<form method="get" action="action.html">
+    <label for="name">Nom:</label>
+    <input type="text" name="name" minlength="2" maxlength="20" required/> <span class="icon-ok">✔</span><br><br>
+    <label for="name">Prenom:</label>
+    <input type="text" name="firstname" minlength="2" maxlength="20" required/> <span class="icon-ok">✔</span><br><br>
+    <label for="start">date de naissance:</label>
+    <input type="date" name="birthday"  required/> <span class="icon-ok">✔</span><br><br>
+    <label for="name">Adresse postal:</label>
+    <input type="text" name="adresse" minlength="5" maxlength="50" required/> <span class="icon-ok">✔</span><br><br>
+    <label for="email">mail:</label>
+    <input type="email" name="email" minlength="5" maxlength="30" required/> <span class="icon-ok">✔</span><br><br>
+    <input class="btn-primary" type="submit" value="envoyer">
+</form> 
+</body>
 </html>
