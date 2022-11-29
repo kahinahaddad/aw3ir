@@ -1,0 +1,20 @@
+body{
+  background-color: #bbe4ff;
+  font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  height: 100hv;
+}
+form{
+
+  margin: 0 auto;
+width: 1200px;
+/* Encadré pour voir les limites du formulaire */
+padding: 1em;
+border: 1px solid rgba(225, 194, 194, 0.22);
+border-radius: 2em;
+background-color: #d4d9e5;
+
+}
+
+
